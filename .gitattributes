@@ -1,4 +1,5 @@
 * text=auto !eol
+/Makefile -text
 /apertium-lit.lit.dix -text
 texts/lietuvos_tsr1.raw.txt -text
 texts/lietuvos_tsr1.tagged.txt -text

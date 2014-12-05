@@ -44,8 +44,70 @@
     <sdef n="pp"     c=""/>
     <sdef n="act"    c=""/>
     <sdef n="sint"   c=""/>   
+    <sdef n="abbr"   c=""/>   
+
+    <sdef n="cm" 	c="Comma"/>
+    <sdef n="percent" 	c="Percent"/>
+    <sdef n="roman" 	c="Roman numeral"/>
+    <sdef n="sent" 	c="Sentence marker"/>
+    <sdef n="lpar" 	c="Left parenthesis"/>
+    <sdef n="rpar" 	c="Right parenthesis"/>
+    <sdef n="lquot" 	c="Left quote"/>
+    <sdef n="rquot" 	c="Right quote"/>
+    <sdef n="quot"      c="Quote"/>
+    <sdef n="guio" 	c="Hyphen"/>    
+
   </sdefs>
   <pardefs>        
+    <!-- Punctuation -->
+
+    <pardef n="numeros">
+      <e><p><l>№</l><r>№</r></p><re>[0-9]+</re><p><l></l><r><s n="num"/></r></p></e>
+      <e><re>[0-9]+([ ][0-9]+)+</re><p><l></l><r><s n="num"/></r></p></e>
+      <e><re>[0-9]+([.,][0-9]+)?</re><p><l></l><r><s n="num"/></r></p></e>
+      <e><re>[0-9]+([.,][0-9]+)? ?%</re><p><l></l><r><s n="num"/><s n="percent"/></r></p></e>
+      <e><re>[0-9]+([.,][0-9]+)?</re><i>-</i><re>[0-9]+([.,][0-9]+)?%?</re><p><l></l><r><s n="num"/></r></p></e>
+      <e><re>[0-9]+([.,][0-9]+)?[:.][0-9]+([.,][0-9]+)?</re><p><l></l><r><s n="num"/></r></p></e>
+<!--      <e><re>[IXV]+</re><p><l></l><r><s n="num"/><s n="roman"/></r></p></e>-->
+    </pardef>
+
+    <pardef n="guio">
+      <e><re>[—\-]+</re><p><l></l><r><s n="guio"/></r></p></e>
+      <e><p><l>–</l><r>–<s n="guio"/></r></p></e>
+    </pardef>
+  
+    <pardef n="coma">
+      <e><re>,</re><p><l></l><r><s n="cm"/></r></p></e>
+    </pardef>
+  
+    <pardef n="separa">
+      <e><re>[.\?;:!…"]+</re><p><l></l><r><s n="sent"/></r></p></e>
+    </pardef>
+  
+    <pardef n="quotes">
+      <e><re>[«“]+</re><p><l></l><r><s n="lquot"/></r></p></e>
+      <e><re>[»”]+</re><p><l></l><r><s n="rquot"/></r></p></e>
+    </pardef>
+  
+    <pardef n="paresq">
+      <e><re>[\(\[]</re><p><l></l><r><s n="lpar"/></r></p></e>
+    </pardef>
+  
+    <pardef n="pardret">
+      <e><re>[\)\]]</re><p><l></l><r><s n="rpar"/></r></p></e>
+    </pardef>
+
+    <!-- Abbreviations -->     
+
+    <pardef n="m.__abbr">
+      <e><p><l></l><r><s n="abbr"/></r></p></e>
+      <e><p><l></l><r><s n="abbr"/><j/>.<s n="sent"/></r></p></e>
+    </pardef>
+
+    <pardef n="piln.__abbr">
+      <e><p><l></l><r><s n="abbr"/></r></p></e>
+    </pardef>
+
     <!-- Numerals -->     
     <pardef n="vien/as__num">
       <e><p><l>o</l><r>as<s n="num"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
@@ -5968,5 +6030,20 @@
         
     <!-- Adjectives -->
     <e lm="geras"><i>ger</i><par n="ger/as__adj"/></e>
+
+    <!-- Abbreviations -->
+    <e lm="piln."><i>piln.</i><par n="piln.__abbr"/></e>
+    <e lm="m."><i>m.</i><par n="m.__abbr"/></e>
+
    </section>
+   <section id="final" type="inconditional">
+     <e><par n="coma"/></e>
+     <e><par n="separa"/></e>
+     <e><par n="guio"/></e>
+     <e><par n="numeros"/></e>
+     <e><par n="paresq"/></e>
+     <e><par n="pardret"/></e>
+     <e><par n="quotes"/></e>
+   </section>
+
 </dictionary> 
