@@ -2,49 +2,49 @@
 <dictionary>   
   <alphabet>AĄBCČDEĘĖFGHIĮYJKLMNOPRSŠTUŲŪVZŽaąbcčdeęėfghiįyjklmnoprsštuųūvzž</alphabet>
   <sdefs>
-    <sdef n="n"      c="daiktavardis"/>
-    <sdef n="np"     c=""/>
-    <sdef n="top"    c=""/>
-    <sdef n="vblex"  c="veiksmažodis"/>
-    <sdef n="vbser"  c="būti"/>
-    <sdef n="adj"    c="būdvardis"/>
-    <sdef n="prn"    c="įvardis"/>
-    <sdef n="num"    c="skaitvardis"/>
-    <sdef n="cnjcoo" c="jungtukas"/>
-    <sdef n="pr"     c="prielinksnis"/>
-    <sdef n="adv"    c="adverb"/>
-    <sdef n="f"      c="moteriška"/>
-    <sdef n="m"      c="vyriška"/>
-    <sdef n="mf"     c="niekatroji"/>
-    <sdef n="nt"     c=""/>
-    <sdef n="sp"     c=""/>
-    <sdef n="sg"     c="vienaskaita"/>
-    <sdef n="du"     c="dviskaita"/>
-    <sdef n="pl"     c="daugiskaita"/>
-    <sdef n="nom"    c="vardininkas"/>
-    <sdef n="gen"    c="kilmininkas"/>
-    <sdef n="dat"    c="naudininkas"/>
-    <sdef n="acc"    c="galininkas"/>
-    <sdef n="ins"    c="įnagininkas"/>
-    <sdef n="loc"    c="vietininkas"/>
-    <sdef n="ill"    c="iliatyvas/kryptininkas"/>
-    <sdef n="voc"    c="šauksmininkas"/>
-    <sdef n="pst"    c=""/>
-    <sdef n="comp"   c=""/>
-    <sdef n="sup"    c=""/>
-    <sdef n="dem"    c="demonstrative"/>
-    <sdef n="itg"    c="interrogative"/>
-    <sdef n="p1"     c="pirmasis asmuo"/>
-    <sdef n="p2"     c="antrasis asmuo"/>
-    <sdef n="p3"     c="trečiasis asmuo"/>
-    <sdef n="pri"    c="present indicative"/>
-    <sdef n="past"   c="past"/>
-    <sdef n="pfi"    c="past frequentative indicative"/>
-    <sdef n="pprs"   c=""/>
-    <sdef n="pp"     c=""/>
-    <sdef n="act"    c=""/>
-    <sdef n="sint"   c=""/>   
-    <sdef n="abbr"   c=""/>   
+    <sdef n="n"         c="Daiktavardis"/>
+    <sdef n="np"        c="Tikrinis daiktavardis"/>
+    <sdef n="top"       c=""/>
+    <sdef n="vblex"     c="Veiksmažodis"/>
+    <sdef n="vbser"     c="Būti"/>
+    <sdef n="adj"       c="Būdvardis"/>
+    <sdef n="prn"       c="įvardis"/>
+    <sdef n="num"       c="Skaitvardis"/>
+    <sdef n="cnjcoo"    c="Jungtukas"/>
+    <sdef n="pr"        c="Prielinksnis"/>
+    <sdef n="adv"       c="Adverb"/>
+    <sdef n="f"         c="Moteriška"/>
+    <sdef n="m"         c="Vyriška"/>
+    <sdef n="mf"        c="Niekatroji"/>
+    <sdef n="nt"        c=""/>
+    <sdef n="sp"        c=""/>
+    <sdef n="sg"        c="Vienaskaita"/>
+    <sdef n="du"        c="Dviskaita"/>
+    <sdef n="pl"        c="Daugiskaita"/>
+    <sdef n="nom"       c="Vardininkas"/>
+    <sdef n="gen"       c="Kilmininkas"/>
+    <sdef n="dat"       c="Naudininkas"/>
+    <sdef n="acc"       c="Galininkas"/>
+    <sdef n="ins"       c="įnagininkas"/>
+    <sdef n="loc"       c="Vietininkas"/>
+    <sdef n="ill"       c="Iliatyvas/kryptininkas"/>
+    <sdef n="voc"       c="Šauksmininkas"/>
+    <sdef n="pst"       c=""/>
+    <sdef n="comp"      c=""/>
+    <sdef n="sup"       c=""/>
+    <sdef n="dem"       c="demonstrative"/>
+    <sdef n="itg"       c="interrogative"/>
+    <sdef n="p1"        c="Pirmasis asmuo"/>
+    <sdef n="p2"        c="Antrasis asmuo"/>
+    <sdef n="p3"        c="Trečiasis asmuo"/>
+    <sdef n="pri"       c="present indicative"/>
+    <sdef n="past"      c="past"/>
+    <sdef n="pfi"       c="past frequentative indicative"/>
+    <sdef n="pprs"      c=""/>
+    <sdef n="pp"        c=""/>
+    <sdef n="act"       c=""/>
+    <sdef n="sint"      c=""/>   
+    <sdef n="abbr"      c=""/>   
 
     <sdef n="cm" 	c="Comma"/>
     <sdef n="percent" 	c="Percent"/>
